@@ -20,8 +20,8 @@
 
       <h3>Toggling</h3>
       <!-- Complete the CSS toggle -->
-      <button type="button" class="btn btn-primary">CSS toggle</button>
-			<!-- Complete the Javascript toggle -->
+      <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false">CSS toggle</button>
+      <!-- Complete the Javascript toggle -->
       <button type="button" class="btn btn-primary" id="toggle">JS toggle</button>
 
       <p>Note the difference between clicking on these buttons versus the buttons above.</p>
@@ -30,14 +30,14 @@
       <!-- Make these into checkboxes -->
       <!-- Preselect an option -->
       <div class="btn-group" data-toggle="buttons">
-        <label class="btn btn-primary">
-          Checkbox 1 (pre-checked)
+        <label class="btn btn-primary active">
+          <input type="checkbox" checked> Checkbox 1 (pre-checked)
         </label>
         <label class="btn btn-primary">
-          Checkbox 2
+          <input type="checkbox"> Checkbox 2
         </label>
         <label class="btn btn-primary">
-          Checkbox 3
+          <input type="checkbox"> Checkbox 3
         </label>
       </div>
 
@@ -48,14 +48,14 @@
       <!-- Make these into radio buttons -->
       <!-- Preselect an option -->
       <div class="btn-group" data-toggle="buttons">
-        <label class="btn btn-primary">
-          Radio 1 (preselected)
+        <label class="btn btn-primary active">
+          <input type="radio" name="options" id="option1" checked> Radio 1 (preselected)
         </label>
         <label class="btn btn-primary">
-          Radio 2
+          <input type="radio" name="options" id="option2"> Radio 2
         </label>
         <label class="btn btn-primary">
-          Radio 3
+          <input type="radio" name="options" id="option3"> Radio 3
         </label>
       </div>
 
@@ -66,7 +66,7 @@
 				The "btn-lg" class makes the button bigger ("btn-sm" does the opposite).</p>
 
       <h3>Swapping out text</h3>
-			<!-- Complete the javascript to swap out the text -->
+      <!-- Complete the javascript to swap out the text -->
       <button type="button" id="newText" class="btn btn-primary">Submit</button>
 
       <h3>Link button</h3>
