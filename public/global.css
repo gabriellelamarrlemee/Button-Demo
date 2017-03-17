@@ -1,0 +1,17 @@
+html,body,div,h1,h2,h3,p,span{
+	margin:50;
+	padding:0;
+}
+
+h3{
+	margin-top:50px;
+}
+
+body{
+	background:rgb(252,252,252);
+}
+
+text{
+	font-size:12px;
+	fill-opacity:.5;
+}
